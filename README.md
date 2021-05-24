@@ -9,7 +9,7 @@ req.search("cat")
 req.write_2_file()
 ```
 The code above shows the module being used to search google with the query `cat`, it then writes the returned HTML to a file.
-Alternativly you can store the HTML in a varaible.
+Alternatively you can store the HTML in a variable.
 ```python
 from google_search import google_search
 
